@@ -2,6 +2,7 @@ package org.example;
 
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Iterator;
 
 public class EmployeeManager {
@@ -55,6 +56,19 @@ public class EmployeeManager {
             Employee employee = (Employee)var2.next();
             System.out.println(employee);
         }
+    }
+    public HashSet<Employee> searchEmployeesByLastName(String lastName) {
+        HashSet<Employee> employeeList = new HashSet(this.employees.values());
+        Iterator<Employee> employeeIterator = employeeList.iterator();
+
+        while(employeeIterator.hasNext()) {
+            Employee employee = (Employee)employeeIterator.next();
+            if (!employee.getLastName().equals(lastName)) {
+                employeeIterator.remove();
+            }
+        }
+
+        return employeeList;
     }
 
 
