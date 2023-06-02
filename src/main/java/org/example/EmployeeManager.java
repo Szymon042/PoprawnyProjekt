@@ -55,7 +55,6 @@ public class EmployeeManager {
             Employee employee = (Employee)var2.next();
             System.out.println(employee);
         }
-
     }
 
 
