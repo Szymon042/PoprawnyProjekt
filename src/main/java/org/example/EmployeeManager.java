@@ -18,6 +18,14 @@ public class EmployeeManager {
         Integer keyEmployee = employee.getEmployeeID();
         this.employees.put(keyEmployee, employee);
     }
+    public void removeEmployee(Employee employee) {
+        if (this.employees.containsKey(employee.getEmployeeID())) {
+            this.employees.remove(employee.getEmployeeID());
+        } else {
+            System.out.println("Nie znaleziono pracownika");
+        }
+
+    }
 
 
 
