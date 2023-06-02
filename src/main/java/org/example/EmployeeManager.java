@@ -1,6 +1,8 @@
 package org.example;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Iterator;
 
 public class EmployeeManager {
     private final HashMap<Integer, Employee> employees;
@@ -44,6 +46,16 @@ public class EmployeeManager {
             System.out.println("Nie znaleziono pracownika o danym ID");
             return null;
         }
+    }
+    public void listAllEmployees() {
+        ArrayList<Employee> employeeList = new ArrayList(this.employees.values());
+        Iterator var2 = employeeList.iterator();
+
+        while(var2.hasNext()) {
+            Employee employee = (Employee)var2.next();
+            System.out.println(employee);
+        }
+
     }
 
 
