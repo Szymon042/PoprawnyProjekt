@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ead1a252-5e6e-47ec-b148-300c256d0467" name="Changes" comment="Zmodyfikowano klasę Employee">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Employee.java" beforeDir="false" />
-    </list>
+    <list default="true" id="ead1a252-5e6e-47ec-b148-300c256d0467" name="Changes" comment="Dodano możliwość usuwania pracowników" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +70,35 @@
       <option name="project" value="LOCAL" />
       <updated>1685699145650</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Zmodyfikowano klasę Employee">
+      <created>1685699228319</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685699228319</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Dodano klasę EmployeeManager">
+      <created>1685699268226</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685699268226</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Dodano możliwość dodawania pracowników">
+      <created>1685699416718</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685699416718</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Dodano możliwość usuwania pracowników">
+      <created>1685700508563</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1685700508563</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -81,6 +106,9 @@
     <MESSAGE value="Hello World" />
     <MESSAGE value="Dodano klasę Employee" />
     <MESSAGE value="Zmodyfikowano klasę Employee" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zmodyfikowano klasę Employee" />
+    <MESSAGE value="Dodano klasę EmployeeManager" />
+    <MESSAGE value="Dodano możliwość dodawania pracowników" />
+    <MESSAGE value="Dodano możliwość usuwania pracowników" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodano możliwość usuwania pracowników" />
   </component>
 </project>
